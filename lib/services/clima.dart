@@ -2,7 +2,7 @@ import 'localizacao.dart';
 import 'networking.dart';
 
 const openWeatherUrl = 'http://api.openweathermap.org/data/2.5/weather';
-const apiKey = '8b555328cd72a4d8abeb070e965abfc5';
+const apiKey = '****************';
 
 class ClimaModel {
   Future<dynamic> getCidadeByNome(String nomeCidade) async {
